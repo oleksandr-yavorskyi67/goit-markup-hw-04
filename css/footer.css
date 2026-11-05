@@ -2,6 +2,11 @@
   background-color: #2e2f42;
   padding: 100px 0;
 }
+
+.footer-container {
+  display: flex;
+}
+
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -27,4 +32,37 @@
 
 .footer-wrapper {
   max-width: 264px;
+  margin-right: 120px;
+}
+
+.footer-social {
+}
+
+.list-social {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.social-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  background: #4d5ae5;
+}
+
+.social-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.footer-icon {
+  color: #f4f4fd;
 }
