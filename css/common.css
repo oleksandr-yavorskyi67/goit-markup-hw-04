@@ -70,3 +70,7 @@ section {
   display: inline-flex;
   align-items: center;
 }
+
+.social-icon {
+  color: #f4f4fd;
+}

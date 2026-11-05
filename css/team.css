@@ -50,3 +50,23 @@
 .team-wrapper {
   padding: 32px 16px;
 }
+
+.team-social {
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+}
+
+.team-social:hover {
+  background-color: #404bbf;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 24px;
+  margin: 8px;
+}

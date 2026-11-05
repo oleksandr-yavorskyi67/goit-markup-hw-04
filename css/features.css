@@ -12,6 +12,7 @@
   width: calc((100% - 72px) / 4);
 }
 .features-subtitle {
+  margin-top: 8px;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -25,4 +26,17 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.features-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 0;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
 }
